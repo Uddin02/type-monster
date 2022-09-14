@@ -181,5 +181,17 @@ button {
   top: 0;
 }
 
-
+@media only screen and (max-width: 576px) {
+  .box-container {
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .card {
+    flex-direction: column;
+  } 
+  .card p {
+    padding: 3px 0 1px 0;
+  }
+}
 
